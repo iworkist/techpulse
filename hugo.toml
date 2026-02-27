@@ -1,0 +1,264 @@
+baseURL = "https://iworkist.github.io/techpulse/"
+title = "TechPulse"
+theme = "PaperMod"
+[pagination]
+pagerSize = 10
+enableRobotsTXT = true
+
+defaultContentLanguage = "ko"
+defaultContentLanguageInSubdir = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+env = "production"
+description = "Tech insights in your language"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+defaultTheme = "auto"
+disableThemeToggle = false
+
+[params.homeInfoParams]
+Title = "TechPulse"
+Content = "Tech insights, delivered in your language."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/iworkist/techpulse"
+
+# ── Languages ──────────────────────────────────────────
+
+[languages.ko]
+languageName = "한국어"
+languageCode = "ko"
+weight = 1
+title = "TechPulse"
+
+[languages.ko.params]
+description = "기술 인사이트를 당신의 언어로"
+
+[languages.ko.params.homeInfoParams]
+Title = "TechPulse"
+Content = "기술의 흐름을 읽는 블로그"
+
+[[languages.ko.menus.main]]
+name = "글 목록"
+url = "/posts/"
+weight = 10
+
+[[languages.ko.menus.main]]
+name = "태그"
+url = "/tags/"
+weight = 20
+
+[[languages.ko.menus.main]]
+name = "검색"
+url = "/search/"
+weight = 30
+
+[languages.en]
+languageName = "English"
+languageCode = "en"
+weight = 2
+title = "TechPulse"
+
+[languages.en.params]
+description = "Tech insights in your language"
+
+[languages.en.params.homeInfoParams]
+Title = "TechPulse"
+Content = "A blog that reads the pulse of technology."
+
+[[languages.en.menus.main]]
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[languages.en.menus.main]]
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[languages.en.menus.main]]
+name = "Search"
+url = "/search/"
+weight = 30
+
+[languages.es]
+languageName = "Español"
+languageCode = "es"
+weight = 3
+title = "TechPulse"
+
+[languages.es.params]
+description = "Perspectivas tecnológicas en tu idioma"
+
+[languages.es.params.homeInfoParams]
+Title = "TechPulse"
+Content = "Un blog que lee el pulso de la tecnología."
+
+[[languages.es.menus.main]]
+name = "Artículos"
+url = "/posts/"
+weight = 10
+
+[[languages.es.menus.main]]
+name = "Etiquetas"
+url = "/tags/"
+weight = 20
+
+[[languages.es.menus.main]]
+name = "Buscar"
+url = "/search/"
+weight = 30
+
+[languages.id]
+languageName = "Bahasa Indonesia"
+languageCode = "id"
+weight = 4
+title = "TechPulse"
+
+[languages.id.params]
+description = "Wawasan teknologi dalam bahasamu"
+
+[languages.id.params.homeInfoParams]
+Title = "TechPulse"
+Content = "Blog yang membaca denyut nadi teknologi."
+
+[[languages.id.menus.main]]
+name = "Artikel"
+url = "/posts/"
+weight = 10
+
+[[languages.id.menus.main]]
+name = "Tag"
+url = "/tags/"
+weight = 20
+
+[[languages.id.menus.main]]
+name = "Cari"
+url = "/search/"
+weight = 30
+
+[languages.vi]
+languageName = "Tiếng Việt"
+languageCode = "vi"
+weight = 5
+title = "TechPulse"
+
+[languages.vi.params]
+description = "Góc nhìn công nghệ bằng ngôn ngữ của bạn"
+
+[languages.vi.params.homeInfoParams]
+Title = "TechPulse"
+Content = "Blog đọc nhịp đập của công nghệ."
+
+[[languages.vi.menus.main]]
+name = "Bài viết"
+url = "/posts/"
+weight = 10
+
+[[languages.vi.menus.main]]
+name = "Thẻ"
+url = "/tags/"
+weight = 20
+
+[[languages.vi.menus.main]]
+name = "Tìm kiếm"
+url = "/search/"
+weight = 30
+
+[languages.th]
+languageName = "ภาษาไทย"
+languageCode = "th"
+weight = 6
+title = "TechPulse"
+
+[languages.th.params]
+description = "ข้อมูลเชิงลึกด้านเทคโนโลยีในภาษาของคุณ"
+
+[languages.th.params.homeInfoParams]
+Title = "TechPulse"
+Content = "บล็อกที่อ่านชีพจรของเทคโนโลยี"
+
+[[languages.th.menus.main]]
+name = "บทความ"
+url = "/posts/"
+weight = 10
+
+[[languages.th.menus.main]]
+name = "แท็ก"
+url = "/tags/"
+weight = 20
+
+[[languages.th.menus.main]]
+name = "ค้นหา"
+url = "/search/"
+weight = 30
+
+[languages.hi]
+languageName = "हिन्दी"
+languageCode = "hi"
+weight = 7
+title = "TechPulse"
+
+[languages.hi.params]
+description = "आपकी भाषा में तकनीकी अंतर्दृष्टि"
+
+[languages.hi.params.homeInfoParams]
+Title = "TechPulse"
+Content = "प्रौद्योगिकी की नब्ज पढ़ने वाला ब्लॉग।"
+
+[[languages.hi.menus.main]]
+name = "लेख"
+url = "/posts/"
+weight = 10
+
+[[languages.hi.menus.main]]
+name = "टैग"
+url = "/tags/"
+weight = 20
+
+[[languages.hi.menus.main]]
+name = "खोजें"
+url = "/search/"
+weight = 30
+
+[languages.ar]
+languageName = "العربية"
+languageCode = "ar"
+weight = 8
+title = "TechPulse"
+
+[languages.ar.params]
+description = "رؤى تقنية بلغتك"
+
+[languages.ar.params.homeInfoParams]
+Title = "TechPulse"
+Content = "مدونة تقرأ نبض التكنولوجيا."
+
+[[languages.ar.menus.main]]
+name = "المقالات"
+url = "/posts/"
+weight = 10
+
+[[languages.ar.menus.main]]
+name = "الوسوم"
+url = "/tags/"
+weight = 20
+
+[[languages.ar.menus.main]]
+name = "بحث"
+url = "/search/"
+weight = 30
+
+# ── Search ─────────────────────────────────────────────
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
